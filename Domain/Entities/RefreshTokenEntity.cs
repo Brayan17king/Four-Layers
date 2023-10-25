@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public class RefreshTokenEntity
+    public class RefreshTokenEntity : BaseEntity
     {
         public int UserId { get; set; }
         public UserEntity User { get; set; }
